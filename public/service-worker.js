@@ -1,7 +1,12 @@
 console.log("Hi from your service-worker.js file!");
 
 const FILES_TO_CACHE = [
-
+    "/",
+    "/index.html",
+    "/index.js",
+    "/style.css",
+    "/icons/icon-512x512.png",
+    "/icons/icon-192x192.png"
 ]
 
 const CACHE_NAME = 'cache-v1';
